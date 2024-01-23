@@ -3,7 +3,7 @@ package mocks
 import (
 	"time"
 
-	"snippetbox.yelnurabdrakhmanov.net/internal/models"
+	"snippetbox.arsenzhamshitov.net/internal/models"
 )
 
 type UserModel struct{}
@@ -18,7 +18,7 @@ func (m *UserModel) Insert(name, email, password string) error {
 }
 
 func (m *UserModel) Authenticate(email, password string) (int, error) {
-	if email == "elnur.kazakhstan@gmail.com" && password == "elnur2005" {
+	if email == "arsen.kazakhstan@gmail.com" && password == "arsen2004" {
 		return 1, nil
 	}
 

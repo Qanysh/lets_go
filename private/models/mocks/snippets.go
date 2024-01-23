@@ -3,7 +3,7 @@ package mocks
 import (
 	"time"
 
-	"snippetbox.yelnurabdrakhmanov.net/internal/models"
+	"snippetbox.arsenzhamshitov.net/internal/models"
 )
 
 var mockSnippet = &models.Snippet{
